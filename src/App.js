@@ -3,23 +3,16 @@ import Register from "./pages/register/Register";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
+import LockNav from "./components/lockNav/LockNav";
 import "./style.scss";
 
 function App() {
 	const darkMode = false;
 
-	const Layout = () => {
-		return (
-			<div className={`theme-${darkMode ? "dark" : "light"}`}>
-				<Navbar />
-			</div>
-		);
-	};
-
 	const Log = () => {
 		return (
 			<div className={`theme-${darkMode ? "dark" : "light"}`}>
-				<Navbar />
+				<LockNav />
 				<Login />
 			</div>
 		);
@@ -28,7 +21,7 @@ function App() {
 	const Reg = () => {
 		return (
 			<div className={`theme-${darkMode ? "dark" : "light"}`}>
-				<Navbar />
+				<LockNav />
 				<Register />
 			</div>
 		);
