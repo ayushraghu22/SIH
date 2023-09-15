@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
 	return (
-		<div className="navbar">
+		<div className="navbarr">
 			<div className="left">
 				<Link to="/" style={{ textDecoration: "none" }}>
 					<span>Edu</span>

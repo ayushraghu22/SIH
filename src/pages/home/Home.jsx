@@ -37,6 +37,28 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
+				<div className="courses">
+					<div className="course">
+						<div className="content">
+							<div className="coursehead">Course 1</div>
+							<div className="coursebody"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, ut expedita? Nam veniam laboriosam velit nostrum ut odit rerum ipsa quisquam aperiam, sapiente optio corrupti rem fugiat, accusantium praesentium voluptas?</div>
+						</div>
+						<img className="img" src="https://10web-site.ai/31/wp-content/uploads/sites/34/2023/09/danny-g-htYDlrrKfuM-unsplash_0N9FGl9N.webp" alt="img"></img>
+					</div>
+					<div className="course">
+						<img className="img" src="https://10web-site.ai/31/wp-content/uploads/sites/34/2023/09/sabri-tuzcu-wunVFNvqhfE-unsplash_0N9FGl9N.webp" alt="img"></img>
+						<div className="content">
+							<div className="coursehead">Course 2</div>
+							<div className="coursebody"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, ut expedita? Nam veniam laboriosam velit nostrum ut odit rerum ipsa quisquam aperiam, sapiente optio corrupti rem fugiat, accusantium praesentium voluptas?</div>
+						</div>
+					</div>
+				</div>
+				<div className="news">
+					<div className="newshead">Subscribe to Newsletter</div>
+					<div className="newssubhead">Enter your email address to register to our newsletter subscription!</div>
+					<input className="email" placeholder="Email" />
+					<button className="button">Subscribe</button>
+				</div>
 			</div>
 		</div>
 	);

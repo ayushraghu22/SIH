@@ -5,8 +5,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 10px 20px;
-		height: 60px;
+		padding: 10px 100px;
+		height: 70px;
 		// border-bottom: 1px solid themed("border");
 		position: sticky;
 		top: 0;
@@ -21,8 +21,8 @@
 			height: 60px;
 
 			span {
-				font-weight: 1000;
-				font-size: 35px;
+				font-weight: 200;
+				font-size: 40px;
 				color: themed("textColor");
 				margin-left: 30px;
 			}
