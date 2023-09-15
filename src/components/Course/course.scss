@@ -1,0 +1,30 @@
+@import "../../style.scss";
+
+.outerCourse {
+  @include themify($themes) {
+  
+    background-color: themed("bgSoft");
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+
+    @include mobile {
+      padding: 10px;
+    }
+
+    @include tablet {
+      padding: 20px;
+    }
+
+    h1 {
+        margin-top: 1%;
+        padding-top: 25px;
+    }
+    
+    .courseBody {
+      background-color: themed("bgSoft");
+      color: themed("textColor");
+    }
+  }
+}

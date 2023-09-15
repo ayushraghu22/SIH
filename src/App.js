@@ -5,6 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import LockNav from "./components/lockNav/LockNav";
 import "./style.scss";
+import Course from "./components/Course/Course";
 
 function App() {
 	const darkMode = false;
@@ -36,6 +37,15 @@ function App() {
 		);
 	};
 
+	const Cours = () => {
+		return (
+			<div className={`theme-${darkMode ? "dark" : "light"}`}>
+				<Navbar />
+				<Course />
+			</div>
+		);
+	};
+
 	const router = createBrowserRouter([
 		{
 			path: "/",
@@ -49,6 +59,10 @@ function App() {
 			path: "/register",
 			element: <Reg />,
 		},
+		{
+			path: "/course",
+			element: <Cours />
+		}
 	]);
 
 	return (

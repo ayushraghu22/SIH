@@ -1,0 +1,17 @@
+@import "../../style.scss";
+
+.courseItem {
+  @include themify($themes) {
+
+    .download{
+        float: right;
+        background-color: white;
+        border: none;
+
+        img{
+            width: 2rem;
+        }
+    }
+    
+  }
+}
